@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D84DB763256402C00028B8BC /* LargeEliteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84DB762256402C00028B8BC /* LargeEliteButton.swift */; };
+		D86446A425633AA50054F9FE /* UnitsCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86446A325633AA50054F9FE /* UnitsCalc.swift */; };
+		D86446A9256346D50054F9FE /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86446A8256346D50054F9FE /* GridView.swift */; };
+		D87FDE8B2564110F00681485 /* InGameViewController+DragAndDropEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87FDE8A2564110F00681485 /* InGameViewController+DragAndDropEngine.swift */; };
 		D8A965B12562F1D50024E504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A965B02562F1D50024E504 /* AppDelegate.swift */; };
-		D8A965B32562F1D50024E504 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A965B22562F1D50024E504 /* SceneDelegate.swift */; };
-		D8A965B52562F1D50024E504 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A965B42562F1D50024E504 /* ViewController.swift */; };
+		D8A965B52562F1D50024E504 /* InGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A965B42562F1D50024E504 /* InGameViewController.swift */; };
 		D8A965B82562F1D50024E504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A965B62562F1D50024E504 /* Main.storyboard */; };
 		D8A965BA2562F1D70024E504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A965B92562F1D70024E504 /* Assets.xcassets */; };
 		D8A965BD2562F1D70024E504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A965BB2562F1D70024E504 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D84DB762256402C00028B8BC /* LargeEliteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeEliteButton.swift; sourceTree = "<group>"; };
+		D86446A325633AA50054F9FE /* UnitsCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsCalc.swift; sourceTree = "<group>"; };
+		D86446A8256346D50054F9FE /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		D87FDE8A2564110F00681485 /* InGameViewController+DragAndDropEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InGameViewController+DragAndDropEngine.swift"; sourceTree = "<group>"; };
 		D8A965AD2562F1D50024E504 /* GameControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A965B02562F1D50024E504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8A965B22562F1D50024E504 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D8A965B42562F1D50024E504 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8A965B42562F1D50024E504 /* InGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InGameViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D8A965B72562F1D50024E504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8A965B92562F1D70024E504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8A965BC2562F1D70024E504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +43,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D84DB761256402A80028B8BC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				D84DB762256402C00028B8BC /* LargeEliteButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		D86446A225633A7A0054F9FE /* StaticLibs */ = {
+			isa = PBXGroup;
+			children = (
+				D86446A325633AA50054F9FE /* UnitsCalc.swift */,
+			);
+			path = StaticLibs;
+			sourceTree = "<group>";
+		};
+		D86446A72563468B0054F9FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D84DB761256402A80028B8BC /* Buttons */,
+				D86446A8256346D50054F9FE /* GridView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D87FDE89256410EB00681485 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D87FDE8A2564110F00681485 /* InGameViewController+DragAndDropEngine.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D87FDE8E2564117000681485 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8A965B42562F1D50024E504 /* InGameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		D8A965A42562F1D50024E504 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +103,11 @@
 		D8A965AF2562F1D50024E504 /* GameControl */ = {
 			isa = PBXGroup;
 			children = (
+				D87FDE8E2564117000681485 /* Controllers */,
+				D87FDE89256410EB00681485 /* Extensions */,
+				D86446A72563468B0054F9FE /* Views */,
+				D86446A225633A7A0054F9FE /* StaticLibs */,
 				D8A965B02562F1D50024E504 /* AppDelegate.swift */,
-				D8A965B22562F1D50024E504 /* SceneDelegate.swift */,
-				D8A965B42562F1D50024E504 /* ViewController.swift */,
 				D8A965B62562F1D50024E504 /* Main.storyboard */,
 				D8A965B92562F1D70024E504 /* Assets.xcassets */,
 				D8A965BB2562F1D70024E504 /* LaunchScreen.storyboard */,
@@ -137,9 +186,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8A965B52562F1D50024E504 /* ViewController.swift in Sources */,
+				D86446A425633AA50054F9FE /* UnitsCalc.swift in Sources */,
+				D86446A9256346D50054F9FE /* GridView.swift in Sources */,
+				D87FDE8B2564110F00681485 /* InGameViewController+DragAndDropEngine.swift in Sources */,
+				D84DB763256402C00028B8BC /* LargeEliteButton.swift in Sources */,
+				D8A965B52562F1D50024E504 /* InGameViewController.swift in Sources */,
 				D8A965B12562F1D50024E504 /* AppDelegate.swift in Sources */,
-				D8A965B32562F1D50024E504 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +323,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
