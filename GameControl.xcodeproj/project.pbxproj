@@ -16,6 +16,7 @@
 		D8A965B82562F1D50024E504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A965B62562F1D50024E504 /* Main.storyboard */; };
 		D8A965BA2562F1D70024E504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A965B92562F1D70024E504 /* Assets.xcassets */; };
 		D8A965BD2562F1D70024E504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A965BB2562F1D70024E504 /* LaunchScreen.storyboard */; };
+		D8E09AE425655FA000A235F3 /* GestureRecognizerForEliteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E09AE325655FA000A235F3 /* GestureRecognizerForEliteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D8A965B92562F1D70024E504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8A965BC2562F1D70024E504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8A965BE2562F1D70024E504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8E09AE325655FA000A235F3 /* GestureRecognizerForEliteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRecognizerForEliteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		D8A965AF2562F1D50024E504 /* GameControl */ = {
 			isa = PBXGroup;
 			children = (
+				D8E09AE225655EE500A235F3 /* CustomBaseClasses */,
 				D87FDE8E2564117000681485 /* Controllers */,
 				D87FDE89256410EB00681485 /* Extensions */,
 				D86446A72563468B0054F9FE /* Views */,
@@ -114,6 +117,14 @@
 				D8A965BE2562F1D70024E504 /* Info.plist */,
 			);
 			path = GameControl;
+			sourceTree = "<group>";
+		};
+		D8E09AE225655EE500A235F3 /* CustomBaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D8E09AE325655FA000A235F3 /* GestureRecognizerForEliteButton.swift */,
+			);
+			path = CustomBaseClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8E09AE425655FA000A235F3 /* GestureRecognizerForEliteButton.swift in Sources */,
 				D86446A425633AA50054F9FE /* UnitsCalc.swift in Sources */,
 				D86446A9256346D50054F9FE /* GridView.swift in Sources */,
 				D87FDE8B2564110F00681485 /* InGameViewController+DragAndDropEngine.swift in Sources */,

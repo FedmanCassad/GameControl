@@ -27,10 +27,14 @@ class InGameViewController: UIViewController {
     view = gridView
     view.backgroundColor = .gray
     let button = LargeEliteButton()
-    let gestureRecognizer = UIGestureRecognizer()
+    let gestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(moveLargeButton(_:)))
+    gestureRecognizer.maximumNumberOfTouches = 1
+    button.addGestureRecognizer(gestureRecognizer)
+    button.isUserInteractionEnabled = true
     gestureRecognizer.isEnabled = true
     button.frame.origin = CGPoint(x: gridView.widthOffset, y: gridView.heightOffset )
     view.addSubview(button)
+    
   }
 
 }
