@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D84DB763256402C00028B8BC /* LargeEliteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84DB762256402C00028B8BC /* LargeEliteButton.swift */; };
+		D823E2CA2565F701007E3DCC /* EditingLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D823E2C92565F701007E3DCC /* EditingLayoutViewController.swift */; };
+		D823E2D22565FA46007E3DCC /* EliteButtonSizeClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = D823E2D12565FA46007E3DCC /* EliteButtonSizeClasses.swift */; };
+		D84DB763256402C00028B8BC /* SmallEliteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84DB762256402C00028B8BC /* SmallEliteButton.swift */; };
 		D86446A425633AA50054F9FE /* UnitsCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86446A325633AA50054F9FE /* UnitsCalc.swift */; };
 		D86446A9256346D50054F9FE /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86446A8256346D50054F9FE /* GridView.swift */; };
 		D87FDE8B2564110F00681485 /* InGameViewController+DragAndDropEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87FDE8A2564110F00681485 /* InGameViewController+DragAndDropEngine.swift */; };
@@ -20,7 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D84DB762256402C00028B8BC /* LargeEliteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeEliteButton.swift; sourceTree = "<group>"; };
+		D823E2C92565F701007E3DCC /* EditingLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingLayoutViewController.swift; sourceTree = "<group>"; };
+		D823E2D12565FA46007E3DCC /* EliteButtonSizeClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliteButtonSizeClasses.swift; sourceTree = "<group>"; };
+		D84DB762256402C00028B8BC /* SmallEliteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallEliteButton.swift; sourceTree = "<group>"; };
 		D86446A325633AA50054F9FE /* UnitsCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsCalc.swift; sourceTree = "<group>"; };
 		D86446A8256346D50054F9FE /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		D87FDE8A2564110F00681485 /* InGameViewController+DragAndDropEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InGameViewController+DragAndDropEngine.swift"; sourceTree = "<group>"; };
@@ -45,10 +49,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D823E2D02565FA33007E3DCC /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				D823E2D12565FA46007E3DCC /* EliteButtonSizeClasses.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		D84DB761256402A80028B8BC /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				D84DB762256402C00028B8BC /* LargeEliteButton.swift */,
+				D84DB762256402C00028B8BC /* SmallEliteButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -82,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				D8A965B42562F1D50024E504 /* InGameViewController.swift */,
+				D823E2C92565F701007E3DCC /* EditingLayoutViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -105,6 +118,7 @@
 		D8A965AF2562F1D50024E504 /* GameControl */ = {
 			isa = PBXGroup;
 			children = (
+				D823E2D02565FA33007E3DCC /* Enums */,
 				D8E09AE225655EE500A235F3 /* CustomBaseClasses */,
 				D87FDE8E2564117000681485 /* Controllers */,
 				D87FDE89256410EB00681485 /* Extensions */,
@@ -198,12 +212,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8E09AE425655FA000A235F3 /* GestureRecognizerForEliteButton.swift in Sources */,
+				D823E2D22565FA46007E3DCC /* EliteButtonSizeClasses.swift in Sources */,
 				D86446A425633AA50054F9FE /* UnitsCalc.swift in Sources */,
 				D86446A9256346D50054F9FE /* GridView.swift in Sources */,
 				D87FDE8B2564110F00681485 /* InGameViewController+DragAndDropEngine.swift in Sources */,
-				D84DB763256402C00028B8BC /* LargeEliteButton.swift in Sources */,
+				D84DB763256402C00028B8BC /* SmallEliteButton.swift in Sources */,
 				D8A965B52562F1D50024E504 /* InGameViewController.swift in Sources */,
 				D8A965B12562F1D50024E504 /* AppDelegate.swift in Sources */,
+				D823E2CA2565F701007E3DCC /* EditingLayoutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

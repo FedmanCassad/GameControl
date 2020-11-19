@@ -26,7 +26,7 @@ class InGameViewController: UIViewController {
     print("Нижний инсет \(view.safeAreaInsets.bottom)")
     view = gridView
     view.backgroundColor = .gray
-    let button = LargeEliteButton()
+    let button = SmallEliteButton()
     let gestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(moveLargeButton(_:)))
     gestureRecognizer.maximumNumberOfTouches = 1
     button.addGestureRecognizer(gestureRecognizer)

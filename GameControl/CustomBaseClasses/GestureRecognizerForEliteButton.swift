@@ -9,9 +9,9 @@ import UIKit
 
 class GestureRecognizerForEliteButton: UIGestureRecognizer {
   
-  var button: LargeEliteButton
+  var button: SmallEliteButton
   
-  init(target: Any?, action: Selector?, button: LargeEliteButton) {
+  init(target: Any?, action: Selector?, button: SmallEliteButton) {
     self.button = button
     super.init(target: target, action: action)
   }
